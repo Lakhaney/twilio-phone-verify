@@ -1,2 +1,111 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "phone_numbers";
+
+.form-control {
+    display: block;
+    width: 22em;
+    height: 3em;
+    padding: 6px 12px;
+    font-size: 17px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 15px 40px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-twilio { 
+  color: #FFFFFF; 
+  background-color: #E68482; 
+  border-color: #E68482; 
+} 
+ 
+.btn-twilio:hover, 
+.btn-twilio:focus, 
+.btn-twilio:active, 
+.btn-twilio.active, 
+.open .dropdown-toggle.btn-twilio { 
+  color: #FFFFFF; 
+  background-color: #C75452; 
+  border-color: #E68482; 
+} 
+ 
+.btn-twilio:active, 
+.btn-twilio.active, 
+.open .dropdown-toggle.btn-twilio { 
+  background-image: none; 
+} 
+ 
+.btn-twilio.disabled, 
+.btn-twilio[disabled], 
+fieldset[disabled] .btn-twilio, 
+.btn-twilio.disabled:hover, 
+.btn-twilio[disabled]:hover, 
+fieldset[disabled] .btn-twilio:hover, 
+.btn-twilio.disabled:focus, 
+.btn-twilio[disabled]:focus, 
+fieldset[disabled] .btn-twilio:focus, 
+.btn-twilio.disabled:active, 
+.btn-twilio[disabled]:active, 
+fieldset[disabled] .btn-twilio:active, 
+.btn-twilio.disabled.active, 
+.btn-twilio[disabled].active, 
+fieldset[disabled] .btn-twilio.active { 
+  background-color: #E68482; 
+  border-color: #E68482; 
+} 
+ 
+.btn-twilio .badge { 
+  color: #E68482; 
+  background-color: #FFFFFF; 
+}
+
+#skinny_wrapper {
+	width: 80%;
+	max-width: 380px;
+	margin: 0 auto;
+	text-align: center;
+	h3 {
+		padding-top: 8em;
+		text-transform: uppercase;
+	}
+	hr {
+		width: 4em;
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 3px solid #8bc6db;
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+}
